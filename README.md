@@ -1,5 +1,7 @@
 # fractory-front
 
+## Node v8.9.4
+
 ## Project setup
 ```
 npm install
