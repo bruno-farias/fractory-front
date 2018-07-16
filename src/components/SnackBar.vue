@@ -16,7 +16,7 @@ export default {
       get () {
         return this.$store.getters.snackbar
       },
-      set (value) {
+      set () {
         this.$store.dispatch('closeSnackbar')
       }
     },

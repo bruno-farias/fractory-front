@@ -14,7 +14,7 @@ Vue.use(VueAxios, axios, VueRouter, Vuex)
 
 Vue.config.productionTip = false
 
-axios.defaults.baseURL = 'https://fractory.herokuapp.com/';
+axios.defaults.baseURL = 'http://localhost/api/';
 
 new Vue({
   render: h => h(App),
